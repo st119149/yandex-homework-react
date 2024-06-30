@@ -1,0 +1,51 @@
+.selectContainer {
+    position: relative;
+    width: 200px;
+    cursor: pointer;
+  }
+  
+  .selectHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .chevronDown::after {
+    content: '▼';
+    font-size: 18px;
+  }
+  
+  .chevronUp::after {
+    content: '▲';
+    font-size: 18px;
+  }
+  
+  .optionsList {
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+  }
+  
+  .option {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .option:last-child {
+    border-bottom: none;
+  }
+  
+  .option:hover {
+    background-color: #f1f1f1;
+  }
+  

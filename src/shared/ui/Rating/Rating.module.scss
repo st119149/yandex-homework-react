@@ -1,0 +1,25 @@
+.rating {
+    display: inline-flex;
+    cursor: pointer;
+
+   
+  }
+
+  .rating:hover {
+    .starFilled {
+        color: gray;
+    }
+  }
+  
+  .starFilled {
+    color: orange;
+  }
+  
+  .starEmpty {
+    color: gray;
+  }
+  
+  .starEmpty:hover,
+  .starFilled:hover {
+    color: gray;
+  }
